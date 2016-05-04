@@ -26,4 +26,12 @@ client code.
 #### Observer
 To implement a publish/subscribe behaviour to an object.
 -  a message queue system is observed to show the progress of a job in a GUI
-
+#### Specification
+Builds a clear specification of business rules, where objects can be
+checked against. The composite specification class has one method called `isSatisfiedBy`.
+`abstract class AbstractSpecification implements SpecificationInterface`
+#### State
+Encapsulate varying behavior for the same routine based on an object's state.
+#### Strategy
+To separate strategies and to enable fast switching between them.
+-  sorting a list of objects, one strategy by date, the other by id
