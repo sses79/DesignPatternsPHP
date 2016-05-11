@@ -26,6 +26,7 @@ client code.
 #### Observer
 To implement a publish/subscribe behaviour to an object.
 -  a message queue system is observed to show the progress of a job in a GUI
+#### 04/05/2016
 #### Specification
 Builds a clear specification of business rules, where objects can be
 checked against. The composite specification class has one method called `isSatisfiedBy`.
@@ -35,3 +36,10 @@ Encapsulate varying behavior for the same routine based on an object's state.
 #### Strategy
 To separate strategies and to enable fast switching between them.
 -  sorting a list of objects, one strategy by date, the other by id
+#### TemplateMethod
+let subclasses of this abstract template "finish" the behavior of an algorithm
+-  well-suited for framework libraries
+-  How to test an abstract template method with PHPUnit.
+#### Visitor
+outsource operations on objects to other objects.
+- `Role::accept`
